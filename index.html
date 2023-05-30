@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link rel="icon" href="./images/favicon.png" />
+    <link rel="stylesheet" href="./main.css" />
+    <title>RazorPay</title>
+  </head>
+  <body class="overflow-x-hidden">
+    <!-- This is complete nav bar which is taking entire width -->
+    <nav class="bg-deepBlue">
+      <!-- This div will be the length we want will contain complete nav bar -->
+      <div class="w-3/4 mx-auto flex items-center justify-between">
+        <!-- logo which is link containing image -->
+        <a href="#" class="cursor-pointer py-7 pr-7">
+          <img src="./images/logo.svg" alt="" width="125px" height="30px" />
+        </a>
+        <ul class="flex gap-7">
+          <li
+            class="relative text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 after:content-[''] after:absolute after:w-[100%] after:h-1 after:bg-lightBlue after:bottom-0 after:left-0 after:opacity-0 after:transition-all after:duration-200 hover:after:opacity-100"
+          >
+            <a href="#">Payments</a>
+          </li>
+
+          <li
+            class="relative text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 after:content-[''] after:absolute after:w-[100%] after:h-1 after:bg-lightBlue after:bottom-0 after:left-0 after:opacity-0 after:transition-all after:duration-200 hover:after:opacity-100"
+          >
+            <a href="#">Banking</a>
+          </li>
+          <li
+            class="relative text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200"
+          >
+            <a href="#">Corporate Card</a>
+          </li>
+          <li
+            class="relative text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200"
+          >
+            <a href="#">Payroll</a>
+          </li>
+          <li
+            class="relative text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 after:content-[''] after:absolute after:w-[100%] after:h-1 after:bg-lightBlue after:bottom-0 after:left-0 after:opacity-0 after:transition-all after:duration-200 hover:after:opacity-100"
+          >
+            <a href="#">Resources</a>
+          </li>
+          <li
+            class="relative text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 after:content-[''] after:absolute after:w-[100%] after:h-1 after:bg-lightBlue after:bottom-0 after:left-0 after:opacity-0 after:transition-all after:duration-200 hover:after:opacity-100"
+          >
+            <a href="#">Support</a>
+          </li>
+          <li
+            class="relative text-white font-mullish py-7 hover:text-lightBlue cursor-pointer transition-all duration-200 after:content-[''] after:absolute after:w-[100%] after:h-1 after:bg-lightBlue after:bottom-0 after:left-0 after:opacity-0 after:transition-all after:duration-200 hover:after:opacity-100"
+          >
+            <a href="#">Pricing</a>
+          </li>
+        </ul>
+
+        <div class="flex gap-3">
+          <img
+            src="./images/india-flag.svg"
+            alt=""
+            width="28px"
+            height="20px"
+          />
+
+          <a
+            href="#"
+            class="py-3 px-5 text-white font-mullish border border-lightBlue text-sm font-bold rounded-sm"
+            >Log in</a
+          >
+
+          <a
+            href="#"
+            class="py-3 px-4 bg-white font-mullish rounded-sm text-lightBlue300 font-bold transition-all duration-200 hover:text-lightBlue500 text-sm"
+            >Sign Up
+            <span class="material-symbols-outlined text-sm align-middle">
+              arrow_forward
+            </span>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero section of the website -->
+
+    <section class="relative bg-deepBlue">
+      <!-- Full conent div -->
+      <div class="w-3/4 flex justify-between items-center mx-auto">
+        <!-- Left Part div -->
+        <div class="w-1/2 space-y-8">
+          <h1 class="text-white font-mullish font-bold text-4xl">
+            Power your finance,<br />grow your business
+          </h1>
+          <div class="w-6 h-1 bg-greenLight"></div>
+          <p class="font-mullish text-white opacity-80 text-lg inline-block">
+            Accept payments from customers. Automate <br />
+            payouts to vendors & employees. Never run out <br />
+            of working capital.
+          </p>
+          <a
+            href="#"
+            class="inline-block bg-lightBlue text-white rounded-md font-mullish font-bold transition-all duration-200 hover:bg-lightBlue500 text-center py-4 px-5"
+            >Sign Up Now</a
+          >
+        </div>
+
+        <!-- Right Part div -->
+
+        <img src="./images/hero-illustration.jpg" alt="" class="w-3/5" />
+
+        <!-- Shape Part -->
+      </div>
+
+      <div class="absolute w-[100.06%] left-0 right-0">
+        <img src="./images/hero-shape.svg" alt="" class="w-[100%]" />
+      </div>
+    </section>
+
+    <!-- Feature section of the website -->
+    <section class="relative mt-48 overflow-hidden w-full">
+      <!-- This is the Big background pixelated picture -->
+      <img
+        src="./images/feature-section1-dottedrows.png"
+        alt=""
+        loading="lazy"
+        class="absolute -top-32 left-40 rotate-180"
+      />
+
+      <!-- This is the small background pixelated picture -->
+      <img
+        src="./images/feature-section1-dottedrows.png"
+        alt=""
+        loading="lazy"
+        class="absolute top-[3rem] right-0 rotate-180"
+      />
+
+      <h2
+        class="font-mullish relative text-center text-2xl font-bold after:content-[''] after:bg-greenLight p-7 mb-20 after:absolute after:w-6 after:h-1 after:bottom-0 after:left-1/2"
+      >
+        Accept Payments with Razorpay Payment Suite
+      </h2>
+
+      <div
+        class="relative w-2/3 border m-auto rounded-md space-y-16 pl-14 py-16"
+      >
+        <h2 class="font-mullish text-3xl font-semibold">
+          SuperCharge your business with the <br />
+          all-powerful <span class="text-lightBlue">Payment Gateway</span>
+        </h2>
+
+        <ul class="font-mullish font-medium text-lg space-y-1">
+          <li>
+            <span
+              class="material-symbols-outlined text-greenLight align-middle"
+            >
+              done
+            </span>
+            100+ Payment Methods
+          </li>
+          <li>
+            <span
+              class="material-symbols-outlined text-greenLight align-middle"
+            >
+              done
+            </span>
+            Industry Leading Success Rate
+          </li>
+          <li>
+            <span
+              class="material-symbols-outlined text-greenLight align-middle"
+            >
+              done
+            </span>
+            Superior Checkout Experience
+          </li>
+          <li>
+            <span
+              class="material-symbols-outlined text-greenLight align-middle"
+            >
+              done
+            </span>
+            Easy to Integrate
+          </li>
+          <li>
+            <span class="material-symbols-outlined text-greenLight align-middle"
+              >done
+            </span>
+            Instant Settlements from day 1
+          </li>
+          <li>
+            <span class="material-symbols-outlined text-greenLight align-middle"
+              >done</span
+            >
+            In-depth Reporting and Insights
+          </li>
+        </ul>
+
+        <div class="space-x-10">
+          <a
+            href="#"
+            class="text-white font-mullish rounded-md text-lg font-medium bg-lightBlue px-6 py-4 hover:bg-lightBlue500"
+          >
+            Sign Up Now
+            <span class="material-symbols-outlined text-base align-middle">
+              arrow_forward
+            </span>
+          </a>
+          <a
+            href="#"
+            class="text-lightBlue font-mullish text-lg font-medium hover:text-deepBlue"
+          >
+            Know More
+            <span class="material-symbols-outlined text-base align-middle">
+              arrow_forward_ios
+            </span>
+          </a>
+        </div>
+
+        <div
+          class="absolute right-0 -top-16 w-1/2 h-full bg-feature-bg bg-contain bg-center bg-no-repeat"
+        ></div>
+      </div>
+    </section>
+
+    <!--feature cards section-->
+    <section class="w-2/3 m-auto my-10 grid grid-cols-3 grid-rows-2 gap-4">
+      <!-- Box1 -->
+
+      <div class="relative cursor-pointer box transition-all duration-200">
+        <!-- Background Images -->
+
+        <img
+          src="./images/payment-link-icon.svg"
+          alt=""
+          class="bg-lightBlue rounded-full w-10 absolute right-4 top-4 -z-20"
+        />
+        <!-- box shape -->
+
+        <svg
+          viewBox="0 0 349.32501220703125 225"
+          xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="none"
+          class="stroke-1 stroke-[#818597] h-full w-full absolute transition-all duration-200 -z-10"
+          style="stroke-opacity: 0.35"
+        >
+          <path
+            d="m 0 6 
+                    a 6 6 0 0 1 6 -6 
+                    h 250.32501220703125 
+                    a 16 16 0 0 1 11 5 
+                    l 77 77 
+                    a 16 16 0 0 1 5 11 
+                    v 126 
+                    a 6 6 0 0 1 -6 6 
+                    h -337.32501220703125 
+                    a 6 6 0 0 1 -6 -6 
+                    z"
+            fill="#fff"
+          ></path>
+        </svg>
+
+        <!-- boxcontent -->
+
+        <div class="space-y-8 py-4 px-4">
+          <h2
+            class="font-bold font-mullish text-xl opacity-80 text-deepBlueHead"
+          >
+            Payment Links
+          </h2>
+
+          <p class="opacity-60 font-mullish text-justify">
+            Share payment link via an email, SMS, <br />
+            messenger, chatbot etc. and get paid <br />
+            immediately
+          </p>
+
+          <a
+            href="#"
+            class="block text-lightBlue font-mullish text-lg font-medium hover:text-deepBlue"
+            >Know More
+            <span class="material-symbols-outlined text-base align-middle">
+              arrow_forward_ios
+            </span>
+          </a>
+        </div>
+        <div class="wave">
+          <img src="./images/features-wave.svg" alt="" />
+        </div>
+      </div>
+
+      <!-- Box-2 -->
+      <div class="relative cursor-pointer box transition-all duration-200">
+        <!-- Background Images -->
+
+        <img
+          src="./images/payment-pages-icon.svg"
+          alt=""
+          class="bg-lightBlue rounded-full w-10 absolute right-4 top-4 -z-20"
+        />
+        <!-- box shape -->
+
+        <svg
+          viewBox="0 0 349.32501220703125 225"
+          xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="none"
+          class="stroke-1 stroke-[#818597] h-full w-full absolute transition-all duration-200 -z-10"
+          style="stroke-opacity: 0.35"
+        >
+          <path
+            d="m 0 6 
+                    a 6 6 0 0 1 6 -6 
+                    h 250.32501220703125 
+                    a 16 16 0 0 1 11 5 
+                    l 77 77 
+                    a 16 16 0 0 1 5 11 
+                    v 126 
+                    a 6 6 0 0 1 -6 6 
+                    h -337.32501220703125 
+                    a 6 6 0 0 1 -6 -6 
+                    z"
+            fill="#fff"
+          ></path>
+        </svg>
+
+        <!-- boxcontent -->
+
+        <div class="space-y-8 py-4 px-4">
+          <h2
+            class="font-bold font-mullish text-xl opacity-80 text-deepBlueHead"
+          >
+            Payment Pages
+          </h2>
+
+          <p class="opacity-60 font-mullish text-justify">
+            Take your store online instantly with <br />
+            zero coding. Accept international & <br />
+            domestic payments
+          </p>
+
+          <a
+            href="#"
+            class="block text-lightBlue font-mullish text-lg font-medium hover:text-deepBlue"
+            >Know More
+            <span class="material-symbols-outlined text-base align-middle">
+              arrow_forward_ios
+            </span>
+          </a>
+        </div>
+        <div class="wave">
+          <img src="./images/features-wave.svg" alt="" />
+        </div>
+      </div>
+
+      <!--Box-3 -->
+      <div class="relative cursor-pointer box transition-all duration-200">
+        <!-- Background Images -->
+
+        <img
+          src="./images/payment-button.svg"
+          alt=""
+          class="bg-lightBlue rounded-full w-10 absolute right-4 top-4 -z-20"
+        />
+        <!-- box shape -->
+
+        <svg
+          viewBox="0 0 349.32501220703125 225"
+          xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="none"
+          class="stroke-1 stroke-[#818597] h-full w-full absolute transition-all duration-200 -z-10"
+          style="stroke-opacity: 0.35"
+        >
+          <path
+            d="m 0 6 
+                    a 6 6 0 0 1 6 -6 
+                    h 250.32501220703125 
+                    a 16 16 0 0 1 11 5 
+                    l 77 77 
+                    a 16 16 0 0 1 5 11 
+                    v 126 
+                    a 6 6 0 0 1 -6 6 
+                    h -337.32501220703125 
+                    a 6 6 0 0 1 -6 -6 
+                    z"
+            fill="#fff"
+          ></path>
+        </svg>
+
+        <!-- boxcontent -->
+
+        <div class="space-y-8 py-4 px-4">
+          <h2
+            class="font-bold font-mullish text-xl opacity-80 text-deepBlueHead"
+          >
+            Payment Buttons
+          </h2>
+
+          <p class="opacity-60 font-mullish text-justify">
+            Create, Copy & collect with Payment <br />
+            Button. Collect one time or subscription <br />
+            payments & more
+          </p>
+
+          <a
+            href="#"
+            class="block text-lightBlue font-mullish text-lg font-medium hover:text-deepBlue"
+            >Know More
+            <span class="material-symbols-outlined text-base align-middle">
+              arrow_forward_ios
+            </span>
+          </a>
+        </div>
+        <div class="wave">
+          <img src="./images/features-wave.svg" alt="" />
+        </div>
+      </div>
+
+      <!-- Box-4 -->
+      <div class="relative cursor-pointer box transition-all duration-200">
+        <!-- Background Images -->
+
+        <img
+          src="./images/subscriptions-icon.svg"
+          alt=""
+          class="bg-lightBlue rounded-full w-10 absolute right-4 top-4 -z-20"
+        />
+        <!-- box shape -->
+
+        <svg
+          viewBox="0 0 349.32501220703125 225"
+          xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="none"
+          class="stroke-1 stroke-[#818597] h-full w-full absolute transition-all duration-200 -z-10"
+          style="stroke-opacity: 0.35"
+        >
+          <path
+            d="m 0 6 
+                    a 6 6 0 0 1 6 -6 
+                    h 250.32501220703125 
+                    a 16 16 0 0 1 11 5 
+                    l 77 77 
+                    a 16 16 0 0 1 5 11 
+                    v 126 
+                    a 6 6 0 0 1 -6 6 
+                    h -337.32501220703125 
+                    a 6 6 0 0 1 -6 -6 
+                    z"
+            fill="#fff"
+          ></path>
+        </svg>
+
+        <!-- boxcontent -->
+
+        <div class="space-y-8 py-4 px-4">
+          <h2
+            class="font-bold font-mullish text-xl opacity-80 text-deepBlueHead"
+          >
+            Subscriptions
+          </h2>
+
+          <p class="opacity-60 font-mullish text-justify">
+            Subscription plans with automated <br />
+            recurring transactions on various <br />
+            payment modes.
+          </p>
+
+          <a
+            href="#"
+            class="block text-lightBlue font-mullish text-lg font-medium hover:text-deepBlue"
+            >Know More
+            <span class="material-symbols-outlined text-base align-middle">
+              arrow_forward_ios
+            </span>
+          </a>
+        </div>
+        <div class="wave">
+          <img src="./images/features-wave.svg" alt="" />
+        </div>
+      </div>
+      <!-- box-5 -->
+      <div class="relative cursor-pointer box transition-all duration-200">
+        <!-- Background Images -->
+
+        <img
+          src="./images/route-icon.svg"
+          alt=""
+          class="bg-lightBlue rounded-full w-10 absolute right-4 top-4 -z-20"
+        />
+        <!-- box shape -->
+
+        <svg
+          viewBox="0 0 349.32501220703125 225"
+          xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="none"
+          class="stroke-1 stroke-[#818597] h-full w-full absolute transition-all duration-200 -z-10"
+          style="stroke-opacity: 0.35"
+        >
+          <path
+            d="m 0 6 
+                    a 6 6 0 0 1 6 -6 
+                    h 250.32501220703125 
+                    a 16 16 0 0 1 11 5 
+                    l 77 77 
+                    a 16 16 0 0 1 5 11 
+                    v 126 
+                    a 6 6 0 0 1 -6 6 
+                    h -337.32501220703125 
+                    a 6 6 0 0 1 -6 -6 
+                    z"
+            fill="#fff"
+          ></path>
+        </svg>
+
+        <!-- boxcontent -->
+
+        <div class="space-y-8 py-4 px-4">
+          <h2
+            class="font-bold font-mullish text-xl opacity-80 text-deepBlueHead"
+          >
+            Route
+          </h2>
+
+          <p class="opacity-60 font-mullish text-justify">
+            Split incoming payments auto-matically <br />
+            to vendor's accounts, manage <br />
+            marketplace money flow...
+          </p>
+
+          <a
+            href="#"
+            class="block text-lightBlue font-mullish text-lg font-medium hover:text-deepBlue"
+            >Know More
+            <span class="material-symbols-outlined text-base align-middle">
+              arrow_forward_ios
+            </span>
+          </a>
+        </div>
+        <div class="wave">
+          <img src="./images/features-wave.svg" alt="" />
+        </div>
+      </div>
+
+      <!-- Box-6 -->
+      <div class="relative cursor-pointer box transition-all duration-200">
+        <!-- Background Images -->
+
+        <img
+          src="./images/smart-collect-icon.svg"
+          alt=""
+          class="bg-lightBlue rounded-full w-10 absolute right-4 top-4 -z-20"
+        />
+        <!-- box shape -->
+
+        <svg
+          viewBox="0 0 349.32501220703125 225"
+          xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="none"
+          class="stroke-1 stroke-[#818597] h-full w-full absolute transition-all duration-200 -z-10"
+          style="stroke-opacity: 0.35"
+        >
+          <path
+            d="m 0 6 
+                    a 6 6 0 0 1 6 -6 
+                    h 250.32501220703125 
+                    a 16 16 0 0 1 11 5 
+                    l 77 77 
+                    a 16 16 0 0 1 5 11 
+                    v 126 
+                    a 6 6 0 0 1 -6 6 
+                    h -337.32501220703125 
+                    a 6 6 0 0 1 -6 -6 
+                    z"
+            fill="#fff"
+          ></path>
+        </svg>
+
+        <!-- boxcontent -->
+
+        <div class="space-y-8 py-4 px-4">
+          <h2
+            class="font-bold font-mullish text-xl opacity-80 text-deepBlueHead"
+          >
+            Smart Collect
+          </h2>
+
+          <p class="opacity-60 font-mullish text-justify">
+            Automatically reconcile incoming NEFT, <br />
+            RTGS, IMPS, UPI payments using Virtual <br />
+            Accounts & UPI-IDs
+          </p>
+
+          <a
+            href="#"
+            class="block text-lightBlue font-mullish text-lg font-medium hover:text-deepBlue"
+            >Know More
+            <span class="material-symbols-outlined text-base align-middle">
+              arrow_forward_ios
+            </span>
+          </a>
+        </div>
+        <div class="wave">
+          <img src="./images/features-wave.svg" alt="" />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
